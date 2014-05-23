@@ -1,6 +1,6 @@
 {
   "name": "is-platform",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Determine if your JavaScript is executing in the client or server",
   "main": "index.js",
   "directories": {

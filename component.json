@@ -1,0 +1,12 @@
+{
+  "name": "is-platform",
+  "repository": "jasonkuhrt/is-platform",
+  "version": "0.0.0",
+  "scripts": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "dependencies": {
+
+  }
+}

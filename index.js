@@ -6,14 +6,16 @@ api.platform  = get_platform();
 api.isServer = !!~['node'].indexOf(api.platform);
 api.isClient = !!~['browser'].indexOf(api.platform);
 
-
-
-var cjs = typeof module === 'object';
-(cjs ? module : window)[cjs ? 'exports' : 'platform'] = api;
+module_export('platform', api);
 
 
 
 // Helpers
+
+function module_export(ns, api){
+  var cjs = typeof module === 'object';
+  (cjs ? module : window)[cjs ? 'exports' : ns] = api;
+}
 
 // get_platform :: String a => -> a
 function get_platform(){

@@ -1,13 +1,12 @@
 {
   "name": "plat",
+  "version": "0.1.0",
   "description": "A tool for working with JavaScript platforms agnostically",
-  "repository": "jasonkuhrt/plat",
-  "version": "0.0.1",
+  "main": "index.js",
   "scripts": [
     "index.js"
   ],
-  "main": "index.js",
+  "repository": "jasonkuhrt/plat",
   "dependencies": {
-
   }
 }

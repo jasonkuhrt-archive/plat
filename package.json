@@ -1,6 +1,6 @@
 {
   "name": "plat",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A tool for working with JavaScript platforms agnostically",
   "main": "index.js",
   "directories": {

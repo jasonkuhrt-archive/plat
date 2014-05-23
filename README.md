@@ -1,4 +1,3 @@
-is-platform
-===========
+# is-platform
 
-Find out what platform the JavaScript is running in
+Determine if your JavaScript is executing in the client or server

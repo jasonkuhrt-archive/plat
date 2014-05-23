@@ -1,0 +1,20 @@
+framework: jasmine2
+serve_files:
+  - index.js
+  - test/client.js
+
+src_files:
+  - test/*.coffee
+  - index.js
+launchers:
+  node:
+    command: ./node_modules/.bin/mocha --reporter tap test/server.js
+    protocol: tap
+before_tests: node_modules/.bin/coffee -c test
+on_exit: rm test/*.js
+launch_in_ci:
+  - node
+  - phantomjs
+launch_in_dev:
+  - node
+  - phantomjs

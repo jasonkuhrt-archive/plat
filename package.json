@@ -1,0 +1,35 @@
+{
+  "name": "is-platform",
+  "version": "0.0.0",
+  "description": "Determine if your JavaScript is executing in the client or server",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "testem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasonkuhrt/is-platform.git"
+  },
+  "keywords": [
+    "test",
+    "env",
+    "platform",
+    "client",
+    "server",
+    "multi-platform"
+  ],
+  "author": "Jason Kuhrt <jasonkuhrt@me.com> (http://jasonkuhrt.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonkuhrt/is-platform/issues"
+  },
+  "homepage": "https://github.com/jasonkuhrt/is-platform",
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "mocha": "^1.19.0",
+    "testem": "^0.6.15"
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "name": "is-platform",
+  "name": "plat",
   "version": "0.0.1",
-  "description": "Determine if your JavaScript is executing in the client or server",
+  "description": "A tool for working with JavaScript platforms agnostically",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jasonkuhrt/is-platform.git"
+    "url": "git://github.com/jasonkuhrt/plat.git"
   },
   "keywords": [
     "test",
@@ -24,9 +24,9 @@
   "author": "Jason Kuhrt <jasonkuhrt@me.com> (http://jasonkuhrt.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jasonkuhrt/is-platform/issues"
+    "url": "https://github.com/jasonkuhrt/plat/issues"
   },
-  "homepage": "https://github.com/jasonkuhrt/is-platform",
+  "homepage": "https://github.com/jasonkuhrt/plat",
   "devDependencies": {
     "coffee-script": "^1.7.1",
     "mocha": "^1.19.0",

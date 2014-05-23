@@ -1,6 +1,7 @@
 {
-  "name": "is-platform",
-  "repository": "jasonkuhrt/is-platform",
+  "name": "plat",
+  "description": "A tool for working with JavaScript platforms agnostically",
+  "repository": "jasonkuhrt/plat",
   "version": "0.0.1",
   "scripts": [
     "index.js"

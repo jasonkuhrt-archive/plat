@@ -1,11 +1,15 @@
 a = require 'assert'
-platform = require '../'
+plat = require '../'
 
 
-describe 'is-platform on server', ->
+
+describe 'plat on server', ->
 
   it '.isServer is true', ->
-    a platform.isServer, 'is server'
+    a plat.isServer, 'is server'
 
   it '.isClient is false', ->
-    a !platform.isClient, 'is not client'
+    a !plat.isClient, 'is not client'
+
+  it '.global is reference to GLOBAL', ->
+    a plat.GLOBE is GLOBAL, 'is GLOBAL reference'

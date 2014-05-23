@@ -2,11 +2,12 @@
 
 var api = {};
 
-api.platform  = get_platform();
+api.platform = get_platform();
 api.isServer = !!~['node'].indexOf(api.platform);
 api.isClient = !!~['browser'].indexOf(api.platform);
+api.GLOBE = api.isServer ? GLOBAL : window ;
 
-module_export('platform', api);
+module_export('plat', api);
 
 
 

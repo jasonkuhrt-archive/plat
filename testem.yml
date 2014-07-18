@@ -1,11 +1,11 @@
 framework: jasmine2
 serve_files:
-  - index.js
+  - lib/**/*.js
   - test/client.js
 
 src_files:
   - test/*.coffee
-  - index.js
+  - lib/**/*.js
 launchers:
   node:
     command: ./node_modules/.bin/mocha --reporter tap test/server.js

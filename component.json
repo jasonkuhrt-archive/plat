@@ -2,9 +2,9 @@
   "name": "plat",
   "version": "0.1.0",
   "description": "A tool for working with JavaScript platforms agnostically",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": [
-    "index.js"
+    "lib/index.js"
   ],
   "repository": "jasonkuhrt/plat",
   "dependencies": {

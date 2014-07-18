@@ -1,16 +1,12 @@
 {
   "name": "plat",
+  "main": "lib/index.js",
   "version": "0.1.0",
-  "description": "A tool for working with JavaScript platforms agnostically",
-  "main": "index.js",
-  "scripts": [
-    "index.js"
-  ],
-  "repository": "jasonkuhrt/plat",
   "homepage": "https://github.com/jasonkuhrt/plat",
   "authors": [
     "Jason Kuhrt <jasonkuhrt@me.com>"
   ],
+  "description": "A tool for working with JavaScript platforms agnostically",
   "keywords": [
     "test",
     "env",

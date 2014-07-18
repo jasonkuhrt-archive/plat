@@ -1,4 +1,3 @@
-
 describe 'plat on client', ->
 
   it '.isServer is false', ->
@@ -9,3 +8,4 @@ describe 'plat on client', ->
 
   it '.global is reference to window', ->
     (expect plat.GLOBE is window).toBe true
+    (expect plat.globe is window).toBe true

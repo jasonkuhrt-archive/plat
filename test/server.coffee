@@ -13,3 +13,4 @@ describe 'plat on server', ->
 
   it '.global is reference to GLOBAL', ->
     a plat.GLOBE is GLOBAL, 'is GLOBAL reference'
+    a plat.globe is GLOBAL, 'is GLOBAL reference'

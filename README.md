@@ -54,7 +54,7 @@ If `plat` cannot determine the platform being used it will throw an error to let
 ##### Supported Platforms
 Currently supported:
 
-- browsers
+- Browsers
 - NodeJS
 
-More platform support is welcome by those that know how to unambiguously test for such contexts. In the spirit of leanness `plat` will probably not support highly-obscure platforms but just ask to know for sure.
+More platform support is welcome by those that know how to unambiguously test for such contexts.

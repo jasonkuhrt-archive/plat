@@ -1,7 +1,7 @@
 {
   "name": "plat",
   "main": "lib/index.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jasonkuhrt/plat",
   "authors": [
     "Jason Kuhrt <jasonkuhrt@me.com>"

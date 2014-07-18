@@ -38,11 +38,11 @@ Is `true` if the JavaScript is executing in NodeJS. `false` otherwise.
 
 Is the label of the platform that the JavaScript is executing on; may be: `browser`, `node`.
 
-##### .GLOBE
+##### .GLOBE | .globe
 
     :: Object
 
-Is a reference to the global scope, `window` in browsers or `GLOBAL` in  NodeJS.
+Is a reference to the global scope. `window` in browsers, `GLOBAL` in  NodeJS.
 
 
 
